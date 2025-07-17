@@ -1,0 +1,14 @@
+[project]
+name = "esrgan"
+version = "0.1.0"
+description = "ESRGAN - Enhanced Super-Resolution Generative Adversarial Network (copilot wrote this btw)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "albumentations>=2.0.8",
+    "pillow>=11.3.0",
+    "tensorboard>=2.20.0",
+    "torch>=2.7.1",
+    "torchvision>=0.22.1",
+    "tqdm>=4.67.1",
+]
